@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:victoria_e_commerce/components/no_account_text.dart';
 import 'package:victoria_e_commerce/components/social_card.dart';
-import 'package:victoria_e_commerce/screens/sign_in/components/sign_form.dart';
+import 'package:victoria_e_commerce/screens/sign_in/components/sig_in_form.dart';
 import 'package:victoria_e_commerce/size_config.dart';
 
 class Body extends StatelessWidget {
