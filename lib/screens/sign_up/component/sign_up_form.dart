@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:victoria_e_commerce/components/custom_suffix_icon.dart';
 import 'package:victoria_e_commerce/components/default_button.dart';
 import 'package:victoria_e_commerce/components/form_error.dart';
-import 'package:victoria_e_commerce/components/social_card.dart';
 import 'package:victoria_e_commerce/screens/complete_profile/complete_profile_screen.dart';
 
 import '../../../constant.dart';
 import '../../../size_config.dart';
+
 class SingUpForm extends StatefulWidget {
   @override
   _SingUpFormState createState() => _SingUpFormState();
@@ -41,7 +41,7 @@ class _SingUpFormState extends State<SingUpForm> {
       key: _formKey,
       child: Padding(
         padding:
-        EdgeInsets.symmetric(horizontal: getProportionateScreenWidth(20)),
+            EdgeInsets.symmetric(horizontal: getProportionateScreenWidth(20)),
         child: Column(
           children: [
             buildEmailFormField(),
@@ -60,7 +60,6 @@ class _SingUpFormState extends State<SingUpForm> {
                 }
               },
             ),
-
           ],
         ),
       ),

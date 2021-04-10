@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:victoria_e_commerce/routs.dart';
+import 'package:victoria_e_commerce/screens/profile/profile_screen.dart';
 
 import 'package:victoria_e_commerce/screens/splash/splash_screen.dart';
 import 'package:victoria_e_commerce/theme.dart';
@@ -19,6 +20,7 @@ class MyApp extends StatelessWidget {
       //home: SplashScreen(),
       // we use routName so that we don't need to memnmber the
       initialRoute: SplashScreen.routeName,
+      //initialRoute: ProfileScreen.routeName,
       routes: routes,
     );
   }

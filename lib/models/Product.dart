@@ -7,8 +7,10 @@ class Product {
   final List<Color> colors;
   final double rating, price;
   final bool isFavourite, isPopular;
+  final int id;
 
   Product({
+    @required this.id,
     @required this.title,
     @required this.description,
     @required this.images,
@@ -24,6 +26,7 @@ class Product {
 
 List<Product> demoProducts = [
   Product(
+    id: 1,
     images: [
       'assets/images/Image Popular Product 2.png',
     ],
@@ -34,12 +37,14 @@ List<Product> demoProducts = [
       Colors.white,
     ],
     title: 'Gloves XC Omega - Polygon',
-    description: 'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without',
+    description:
+        'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without',
     price: 39.55,
     rating: 4.1,
     isPopular: true,
   ),
   Product(
+    id: 2,
     images: [
       'assets/images/ps4_console_white_1.png',
       'assets/images/ps4_console_white_2.png',
@@ -53,13 +58,15 @@ List<Product> demoProducts = [
       Colors.white,
     ],
     title: 'Wireless Controller for PS4',
-    description: 'A handy Lorem Ipsum Generator that helps to create dummy text for all layout needs.',
+    description:
+        'A handy Lorem Ipsum Generator that helps to create dummy text for all layout needs.',
     price: 64.99,
     rating: 4.8,
     isPopular: true,
     isFavourite: true,
   ),
   Product(
+    id: 3,
     images: [
       'assets/images/glap.png',
     ],
@@ -70,7 +77,8 @@ List<Product> demoProducts = [
       Colors.white,
     ],
     title: 'Wireless Controller for PS4',
-    description: 'A handy Lorem Ipsum Generator that helps to create dummy text for all layout needs.',
+    description:
+        'A handy Lorem Ipsum Generator that helps to create dummy text for all layout needs.',
     price: 64.99,
     rating: 4.1,
     isPopular: true,
